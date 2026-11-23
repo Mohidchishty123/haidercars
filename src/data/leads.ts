@@ -1,0 +1,40 @@
+import { ImportLead } from "@/types/database";
+
+export const INITIAL_LEADS: ImportLead[] = [
+  {
+    id: "lead-001",
+    customer_name: "Usman Tariq",
+    whatsapp_number: "923004128890",
+    desired_car: "Honda Vezel e:HEV Z",
+    preferred_year: "2022–2023",
+    preferred_grade: "4.5",
+    budget_pkr: "95 Lac – 1.05 Crore",
+    notes: "Prefer Meteoroid Gray or Platinum White, mileage under 20,000 KM.",
+    status: "new",
+    created_at: "2026-11-20T09:15:00.000Z",
+  },
+  {
+    id: "lead-002",
+    customer_name: "Saad Mahmood",
+    whatsapp_number: "923218451120",
+    desired_car: "Toyota Yaris Cross Z Hybrid",
+    preferred_year: "2022–2024",
+    preferred_grade: "4.5",
+    budget_pkr: "88 – 92 Lac",
+    notes: "Two-tone Urban Khaki preferred. Need original USS auction sheet.",
+    status: "contacted",
+    created_at: "2026-11-19T14:40:00.000Z",
+  },
+  {
+    id: "lead-003",
+    customer_name: "Bilal Ahmed",
+    whatsapp_number: "923334901234",
+    desired_car: "Toyota Raize Z Hybrid",
+    preferred_year: "2023",
+    preferred_grade: "5",
+    budget_pkr: "68 – 72 Lac",
+    notes: "Ready to book immediately if Grade 5.0 is available in Pearl White.",
+    status: "closed",
+    created_at: "2026-11-17T11:20:00.000Z",
+  },
+];

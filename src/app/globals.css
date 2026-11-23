@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background-color: #0B0C0E;
+    color: #F5F6F8;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #0B0C0E;
+    color: #F5F6F8;
+    font-family: var(--font-sans), sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display), sans-serif;
+    letter-spacing: -0.03em;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Reference Hero Warm Bronze-to-Slate Metallic Studio Backdrop */
+.hero-metallic-studio {
+  background:
+    radial-gradient(circle at 22% 28%, rgba(164, 136, 112, 0.55) 0%, rgba(164, 136, 112, 0) 52%),
+    radial-gradient(circle at 82% 35%, rgba(88, 99, 112, 0.55) 0%, rgba(19, 21, 25, 0) 58%),
+    linear-gradient(135deg, #6E5D4F 0%, #3E434A 52%, #14161B 100%);
+}
+
+/* Mid-Page Spotlight Slate Studio Backdrop */
+.spotlight-slate-studio {
+  background:
+    radial-gradient(circle at 50% 25%, rgba(110, 118, 130, 0.38) 0%, rgba(19, 21, 25, 0) 65%),
+    linear-gradient(180deg, #2D323A 0%, #171A20 65%, #0B0C0E 100%);
+}
